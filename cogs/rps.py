@@ -63,7 +63,7 @@ class RPS(commands.Cog):
                 resp = await self.client.wait_for("message", timeout=45, check=check)
             except asyncio.TimeoutError:
                 # exit the loop (and therefore the game) if players take too long
-                await ctx.channel.send(f'You took too long to respond!')
+                await ctx.channel.send(f'You took too loooooooooooong to respond!')
                 break
 
             # if resp is not None (i.e. the above try catch statement did not receive an exception), determine game results
