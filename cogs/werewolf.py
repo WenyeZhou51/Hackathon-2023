@@ -3,7 +3,7 @@ import discord
 from discord.ext import commands
 import asyncio
 
-class werewolf(commands.Cog):
+class Mafia(commands.Cog):
     def __init__(self, client):
         self.client = client
 
